@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         et_n2 = findViewById(R.id.et_n2);
     }
 
-    //navigation
+    //navigation to secondActivity
     public void openSecond(View view){
 
         Intent intent = new Intent(this, secondActivity.class);
