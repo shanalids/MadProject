@@ -40,18 +40,22 @@ public class secondActivity extends AppCompatActivity {
         n2 = Integer.parseInt(number2);
     }
 
+    //Addition
     public void addNumbers(View view){
         tv_answer.setText(number1 + "+" + number2 + "=" + (n1+n2));
     }
 
+    //Subtraction
     public void subtractNumbers(View view){
         tv_answer.setText(number1 + "-" + number2 + "=" + (n1-n2));
     }
 
+    //Multiplication
     public void multiplyNumbers(View view){
         tv_answer.setText(number1 + "*" + number2 + "=" + (n1*n2));
     }
 
+    //Division
     public void divideNumbers(View view){
         tv_answer.setText(number1 + "/" + number2 + "=" + (n1/n2));
     }
